@@ -28,43 +28,4 @@ A modern, high-performance web application designed for managing and tracking cr
 └── .gitignore            # Git exclusion rules
 ```
 
-## ⚙️ Getting Started
-
-To get a local version up and running, follow these simple steps.
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (Latest LTS recommended)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-
-### Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/ani18cs/Cricket-site.git
-   cd Cricket-site/cpl-tournament
-   ```
-
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Set up Environment Variables**:
-   Create a `.env` file in the `cpl-tournament` directory and add your Supabase credentials:
-   ```env
-   VITE_SUPABASE_URL=your_supabase_url
-   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-   ```
-
-4. **Launch development server**:
-   ```bash
-   npm run dev
-   ```
-
-## 📜 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
 Built with ❤️ for cricket fans.
